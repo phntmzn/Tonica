@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* MusicTheoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* MusicTheoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100000000000000000000102 /* NoteName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* NoteName.swift */; };
+		100000000000000000000103 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* Note.swift */; };
+		100000000000000000000104 /* PitchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* PitchClass.swift */; };
+		100000000000000000000105 /* ScaleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* ScaleType.swift */; };
+		100000000000000000000106 /* ScaleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* ScaleBuilder.swift */; };
+		100000000000000000000107 /* ChordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* ChordType.swift */; };
+		100000000000000000000108 /* ChordBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* ChordBuilder.swift */; };
+		100000000000000000000109 /* ProgressionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* ProgressionBuilder.swift */; };
+		100000000000000000000110 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* Duration.swift */; };
+		100000000000000000000111 /* RhythmPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* RhythmPattern.swift */; };
+		100000000000000000000112 /* MIDIEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* MIDIEvent.swift */; };
+		100000000000000000000113 /* MIDIFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* MIDIFileWriter.swift */; };
+		100000000000000000000114 /* MusicMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* MusicMath.swift */; };
+		100000000000000000000115 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* main.swift */; };
+		100000000000000000000116 /* MusicTheoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000000020 /* MusicTheoryKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000201;
+			remoteInfo = MusicTheoryKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* MusicTheoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicTheoryKit.h; sourceTree = "<group>"; };
+		100000000000000000000002 /* NoteName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteName.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* PitchClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchClass.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* ScaleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleType.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* ScaleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleBuilder.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* ChordType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordType.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* ChordBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordBuilder.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* ProgressionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionBuilder.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* RhythmPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmPattern.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* MIDIEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIEvent.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* MIDIFileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIFileWriter.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* MusicMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMath.swift; sourceTree = "<group>"; };
+		100000000000000000000015 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		100000000000000000000020 /* MusicTheoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MusicTheoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000021 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000116 /* MusicTheoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000030 /* MusicTheoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* MusicTheoryKit.h */,
+				100000000000000000000031 /* Notes */,
+				100000000000000000000032 /* Scales */,
+				100000000000000000000033 /* Chords */,
+				100000000000000000000034 /* Progressions */,
+				100000000000000000000035 /* Rhythm */,
+				100000000000000000000036 /* MIDI */,
+				100000000000000000000037 /* Utilities */,
+			);
+			path = MusicTheoryKit;
+			sourceTree = "<group>";
+		};
+		100000000000000000000031 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* NoteName.swift */,
+				100000000000000000000003 /* Note.swift */,
+				100000000000000000000004 /* PitchClass.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		100000000000000000000032 /* Scales */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000005 /* ScaleType.swift */,
+				100000000000000000000006 /* ScaleBuilder.swift */,
+			);
+			path = Scales;
+			sourceTree = "<group>";
+		};
+		100000000000000000000033 /* Chords */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000007 /* ChordType.swift */,
+				100000000000000000000008 /* ChordBuilder.swift */,
+			);
+			path = Chords;
+			sourceTree = "<group>";
+		};
+		100000000000000000000034 /* Progressions */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000009 /* ProgressionBuilder.swift */,
+			);
+			path = Progressions;
+			sourceTree = "<group>";
+		};
+		100000000000000000000035 /* Rhythm */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000010 /* Duration.swift */,
+				100000000000000000000011 /* RhythmPattern.swift */,
+			);
+			path = Rhythm;
+			sourceTree = "<group>";
+		};
+		100000000000000000000036 /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000012 /* MIDIEvent.swift */,
+				100000000000000000000013 /* MIDIFileWriter.swift */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		100000000000000000000037 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000014 /* MusicMath.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		100000000000000000000038 /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000015 /* main.swift */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		100000000000000000000039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000020 /* MusicTheoryKit.framework */,
+				100000000000000000000021 /* DemoApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000040 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000030 /* MusicTheoryKit */,
+				100000000000000000000038 /* DemoApp */,
+				100000000000000000000039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100000000000000000000211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* MusicTheoryKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000201 /* MusicTheoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000501 /* Build configuration list for PBXNativeTarget "MusicTheoryKit" */;
+			buildPhases = (
+				100000000000000000000211 /* Headers */,
+				100000000000000000000210 /* Sources */,
+				100000000000000000000212 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicTheoryKit;
+			productName = MusicTheoryKit;
+			productReference = 100000000000000000000020 /* MusicTheoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		100000000000000000000202 /* DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000502 /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildPhases = (
+				100000000000000000000220 /* Sources */,
+				100000000000000000000222 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100000000000000000000302 /* PBXTargetDependency */,
+			);
+			name = DemoApp;
+			productName = DemoApp;
+			productReference = 100000000000000000000021 /* DemoApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					100000000000000000000201 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					100000000000000000000202 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000500 /* Build configuration list for PBXProject "MusicTheoryKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000040;
+			productRefGroup = 100000000000000000000039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000201 /* MusicTheoryKit */,
+				100000000000000000000202 /* DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000102 /* NoteName.swift in Sources */,
+				100000000000000000000103 /* Note.swift in Sources */,
+				100000000000000000000104 /* PitchClass.swift in Sources */,
+				100000000000000000000105 /* ScaleType.swift in Sources */,
+				100000000000000000000106 /* ScaleBuilder.swift in Sources */,
+				100000000000000000000107 /* ChordType.swift in Sources */,
+				100000000000000000000108 /* ChordBuilder.swift in Sources */,
+				100000000000000000000109 /* ProgressionBuilder.swift in Sources */,
+				100000000000000000000110 /* Duration.swift in Sources */,
+				100000000000000000000111 /* RhythmPattern.swift in Sources */,
+				100000000000000000000112 /* MIDIEvent.swift in Sources */,
+				100000000000000000000113 /* MIDIFileWriter.swift in Sources */,
+				100000000000000000000114 /* MusicMath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000115 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100000000000000000000201 /* MusicTheoryKit */;
+			targetProxy = 100000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000000602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		100000000000000000000611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "@rpath";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MusicTheoryKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		100000000000000000000612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "@rpath";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MusicTheoryKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		100000000000000000000621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		100000000000000000000622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000500 /* Build configuration list for PBXProject "MusicTheoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000601 /* Debug */,
+				100000000000000000000602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000501 /* Build configuration list for PBXNativeTarget "MusicTheoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000611 /* Debug */,
+				100000000000000000000612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000502 /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000621 /* Debug */,
+				100000000000000000000622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000400 /* Project object */;
+}
